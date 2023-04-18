@@ -3,7 +3,7 @@
     <v-container class="price-container pa-9">
       <TitlesComponent title="Preços" title-color="#F1F1F1" />
       <v-row class="price-row mt-10">
-        <v-col sm="9" align="left">
+        <v-col cols="7" align="left">
           <p class="price-cuts">Cabelo</p>
           <p>Nós fornecemos uma consulta antes do corte para entender suas necessidades e preferências e garantir que você
             saia da
@@ -15,23 +15,23 @@
         </v-col>
       </v-row>
       <v-row class="price-row">
-        <v-col sm="9" align="left">
+        <v-col cols="7" align="left">
           <p class="price-cuts">Barba</p>
           <p>Oferecemos uma variedade de opções de estilo de barba e utilizamos produtos de qualidade para garantir
             que sua pele fique hidratada e livre de irritações.</p>
         </v-col>
-        <v-col class="title" align="left">
+        <v-col class="title">
           <p>R$ 20</p>
           <p class="caption">10-15 min</p>
         </v-col>
       </v-row>
       <v-row>
-        <v-col sm="9" align="left">
+        <v-col cols="7" align="left">
           <p class="price-cuts">Cabelo e Barba</p>
           <p>O serviço completo da barbearia, o melhor que você já tem do corte de cabelo junto com o corte de barba,
             por um preço muito acessível.</p>
         </v-col>
-        <v-col class="title" align="left">
+        <v-col class="title">
           <p>R$ 45</p>
           <p class="caption">20-30 min</p>
         </v-col>
