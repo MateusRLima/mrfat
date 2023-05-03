@@ -3,18 +3,18 @@
     <v-container class="barber-container  pa-9">
       <TitlesComponent title="O Barbeiro" title-color="#F1F1F1" />
       <v-row align="center" class="mt-10">
-        <v-col align="left" sm="5">
+        <v-col align="center">
           <v-card dark outlined max-width="350">
             <template slot="progress">
               <v-progress-linear color="black" height="10" indeterminate></v-progress-linear>
             </template>
-            <v-img contain src="@/assets/MrFat-3.jpg" class="barber-profile" />
+            <v-img contain src="@/assets/MrFat.jpg" class="barber-profile" />
             <v-card-text class="px-10 py-5 pt-7">
               <p class="text-left barber-name">
                 Thales Monteiro, "MrFat"
               </p>
               <p class="text-left mb-0">
-                - "Transforme sua aparência, eleve sua autoestima. Seja o melhor que você pode ser na minha
+                "Transforme sua aparência, eleve sua autoestima. Seja o melhor que você pode ser na minha
                 cadeira."
               </p>
             </v-card-text>
@@ -29,11 +29,10 @@
             </v-card-actions>
           </v-card>
         </v-col>
-        <v-col align="center" sm="7">
-          <v-carousel hide-delimiter-background :show-arrows="false" cycle :interval="3000" height="550">
-            <v-carousel-item class="carousel-img" v-for="(photo, i) in photos" :key="i" :src="photo.src">
-            </v-carousel-item>
-          </v-carousel>
+        <v-col align="center">
+          <div class="barber-cuts">
+            <img v-for="(photo, i) in photos" :key="i" :src="photo.src" height="275" />
+          </div>
         </v-col>
       </v-row>
     </v-container>
@@ -41,7 +40,6 @@
 </template>
 <script>
 import TitlesComponent from './TitlesComponent.vue';
-
 
 export default {
   name: "BarberSection",
@@ -51,13 +49,13 @@ export default {
         src: require("@/assets/Corte-1.jpg"),
       },
       {
-        src: require("@/assets/Corte-2.jpg"),
+        src: require("@/assets/Corte-2.jpeg"),
       },
       {
         src: require("@/assets/Corte-3.jpg"),
       },
       {
-        src: require("@/assets/MrFat-1.jpg"),
+        src: require("@/assets/Corte-4.jpeg"),
       },
     ]
   }),
@@ -106,6 +104,13 @@ export default {
 
   .barber-profile {
     border-radius: 100%;
+  }
+
+  .barber-cuts {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
   }
 
   .v-item-group {

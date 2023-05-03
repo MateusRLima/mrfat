@@ -2,19 +2,17 @@
   <v-app>
     <v-main>
       <header-section />
-      <v-toolbar dense dark flat>
+      <v-app-bar dense fixed dark flat outlined>
+        <v-btn icon href="https://api.whatsapp.com/send?phone=5581996796347"
+          target="_blank"><v-icon>mdi-whatsapp</v-icon></v-btn>
         <v-spacer></v-spacer>
-        <v-toolbar-items>
-          <v-btn small text @click="scrollToBarber">O Barbeiro</v-btn>
-        </v-toolbar-items>
-        <v-toolbar-items>
-          <v-btn small text @click="scrollToPrice">Preços</v-btn>
-        </v-toolbar-items>
-        <v-toolbar-items>
-          <v-btn small text @click="scrollToSchedule">Horário</v-btn>
-        </v-toolbar-items>
+        <v-btn small text @click="scrollToBarber">O Barbeiro</v-btn>
+        <v-btn small text @click="scrollToPrice">Preços</v-btn>
+        <v-btn small text @click="scrollToSchedule">Horário</v-btn>
         <v-spacer></v-spacer>
-      </v-toolbar>
+        <v-btn icon href="https://www.instagram.com/mr.fatbarbearia/"
+          target="_blank"><v-icon>mdi-instagram</v-icon></v-btn>
+      </v-app-bar>
       <section ref="barber">
         <barber-section />
       </section>
