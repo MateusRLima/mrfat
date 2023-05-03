@@ -31,7 +31,7 @@
         </v-col>
         <v-col align="center">
           <div class="barber-cuts">
-            <img v-for="(photo, i) in photos" :key="i" :src="photo.src" height="275" />
+            <img v-for="(photo, i) in photos" :key="i" :src="photo.src" height="270" width="240" />
           </div>
         </v-col>
       </v-row>

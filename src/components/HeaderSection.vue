@@ -1,6 +1,6 @@
 <template>
   <div class="header py-10">
-    <v-container class="text-center">
+    <v-container class="text-center pt-10">
       <v-row align="center">
         <v-col align="center" class="px-0">
           <v-img src="@/assets/logo-2.png" contain height="200" class="mb-5" />
