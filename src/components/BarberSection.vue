@@ -31,7 +31,7 @@
         </v-col>
         <v-col align="center">
           <div class="barber-cuts">
-            <img v-for="(photo, i) in photos" :key="i" :src="photo.src" height="270" width="240" />
+            <img v-for="(photo, i) in photos" :key="i" :src="photo.src" height="280" width="220" />
           </div>
         </v-col>
       </v-row>
@@ -111,6 +111,7 @@ export default {
     flex-wrap: wrap-reverse;
     justify-content: center;
     align-items: center;
+    max-width: 560px;
   }
 
   .v-item-group {
