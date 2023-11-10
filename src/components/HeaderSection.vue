@@ -3,7 +3,7 @@
     <v-container class="text-center pt-10">
       <v-row align="center">
         <v-col align="center" class="px-0">
-          <v-img src="@/assets/logo-2.png" contain height="200" class="mb-5" />
+          <v-img src="@/assets/logo-2.png" contain height="200" class="mb-5" alt="Logo da MrFat Barbearia"/>
           <div class="header-text">
             <h1 class="header-title mb-5">
               Mr.Fat Barbearia
@@ -19,6 +19,7 @@
   </div>
 </template>
 <script>
+
 export default {
   name: "HeaderSection",
 }

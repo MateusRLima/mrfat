@@ -1,7 +1,7 @@
 <template>
   <div class="barber white--text darken-2" ref="barber">
     <v-container class="barber-container  pa-9">
-      <TitlesComponent title="O Barbeiro" title-color="#F1F1F1" />
+      <TitlesComponent title="Barbearia" title-color="#F1F1F1" />
       <v-row align="center" class="mt-10">
         <v-col align="center">
           <v-card dark outlined max-width="350">
@@ -18,6 +18,7 @@
                 cadeira."
               </p>
             </v-card-text>
+            
             <v-card-actions class="barber-contact pb-5 pt-0">
               <v-spacer></v-spacer>
               <v-btn icon href="https://api.whatsapp.com/send?phone=5581996796347"

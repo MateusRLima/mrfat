@@ -59,15 +59,15 @@ export default {
     }
 
     .schedule-status-closed {
-      color: darkred;
-      border: darkred solid 1px;
+      color: red;
+      border: red solid 1px;
       border-radius: 4px;
       width: 120px;
     }
 
     .schedule-status-open {
-      color: darkgreen;
-      border: darkgreen solid 1px;
+      color: green;
+      border: green solid 1px;
       border-radius: 4px;
       width: 120px;
     }

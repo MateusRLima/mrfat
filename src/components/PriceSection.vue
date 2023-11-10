@@ -10,7 +10,7 @@
             barbearia com um visual que combine com o seu estilo.</p>
         </v-col>
         <v-col class="title">
-          <p>R$ 30</p>
+          <p>R$ 35 (Só máquina R$ 25)</p>
           <p class="caption">15-20 min</p>
         </v-col>
       </v-row>
@@ -32,7 +32,7 @@
             por um preço muito acessível.</p>
         </v-col>
         <v-col class="title">
-          <p>R$ 45</p>
+          <p>R$ 50</p>
           <p class="caption">20-30 min</p>
         </v-col>
       </v-row>
