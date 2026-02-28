@@ -1,0 +1,60 @@
+{
+  "nav": {
+    "barbershop": "Barbershop",
+    "prices": "Prices",
+    "hours": "Hours"
+  },
+  "header": {
+    "title": "Mr.Fat Barbershop",
+    "subtitle": "Welcome to MrFat, the barbershop where service excellence and style meet to create a unique and unforgettable experience for you."
+  },
+  "barber": {
+    "title": "Barbershop",
+    "quote": "Transform your appearance, elevate your self-esteem. Be the best you can be in my chair.",
+    "age": "Age: 39 years",
+    "experience": "Career: Over 10 years",
+    "education": "Numerous courses and certifications"
+  },
+  "prices": {
+    "title": "Prices",
+    "cabelo": "Haircut",
+    "barba": "Beard",
+    "cabelo_barba": "Hair & Beard",
+    "whatsapp_btn": "Schedule via WhatsApp",
+    "features": {
+        "visagismo": "Visagism consultation",
+        "corte_perso": "Custom haircut",
+        "acabamento": "Premium finishing",
+        "desenho": "Machine/razor design",
+        "pos_barba": "Aftershave products",
+        "hidratacao": "Hair hydration",
+        "combo": "Complete combo",
+        "corte_completo": "Full haircut",
+        "barba_completa": "Full beard",
+        "experiencia": "Mr. Fat premium experience"
+    },
+    "whatsapp_msgs": {
+        "cabelo": "Hello! I'd like to schedule a Haircut at Mr. Fat.",
+        "barba": "Hello! I'd like to schedule a Beard service at Mr. Fat.",
+        "cabelo_barba": "Hello! I'd like to schedule the Hair and Beard Combo at Mr. Fat."
+    }
+  },
+  "schedule": {
+    "title": "Hours",
+    "arrival_note": "*Service on a first-come, first-served basis",
+    "changes_note": "*Subject to change due to holidays and external events",
+    "days": {
+        "dom_seg": "Sunday / Monday",
+        "ter_sex": "Tuesday / Wednesday / Thursday / Friday",
+        "sab": "Saturday"
+    },
+    "status": {
+        "open": "Open",
+        "closed": "Closed"
+    }
+  },
+  "footer": {
+    "contacts": "Contacts:",
+    "address": "Address:"
+  }
+}

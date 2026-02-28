@@ -1,14 +1,18 @@
-import Vue from 'vue'
+import { createApp } from 'vue'
 import App from './App.vue'
 import vuetify from './plugins/vuetify'
+import './registerServiceWorker'
 
+// Import global components if needed
 import TitlesComponent from "@/components/TitlesComponent.vue"
 
-Vue.component(TitlesComponent)
+import i18n from './plugins/i18n'
 
-Vue.config.productionTip = false
+const app = createApp(App)
 
-new Vue({
-  vuetify,
-  render: h => h(App)
-}).$mount('#app')
+app.component('TitlesComponent', TitlesComponent)
+
+app.use(vuetify)
+app.use(i18n)
+
+app.mount('#app')

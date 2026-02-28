@@ -1,0 +1,60 @@
+{
+  "nav": {
+    "barbershop": "Barbearia",
+    "prices": "Preços",
+    "hours": "Horários"
+  },
+  "header": {
+    "title": "Mr.Fat Barbearia",
+    "subtitle": "Bem-vindo à MrFat, a barbearia onde a excelência em serviços e o estilo se encontram para criar uma experiência única e inesquecível para você."
+  },
+  "barber": {
+    "title": "Barbearia",
+    "quote": "Transforme sua aparência, eleve sua autoestima. Seja o melhor que você pode ser na minha cadeira.",
+    "age": "Idade: 39 anos",
+    "experience": "Carreira: Mais de 10 anos",
+    "education": "Diversos cursos e certificações"
+  },
+  "prices": {
+    "title": "Preços",
+    "cabelo": "Cabelo",
+    "barba": "Barba",
+    "cabelo_barba": "Cabelo & Barba",
+    "whatsapp_btn": "Agendar via WhatsApp",
+    "features": {
+        "visagismo": "Consulta de visagismo",
+        "corte_perso": "Corte personalizado",
+        "acabamento": "Acabamento premium",
+        "desenho": "Desenho na máquina/navalha",
+        "pos_barba": "Produtos pós-barba",
+        "hidratacao": "Hidratação dos fios",
+        "combo": "Combo completo",
+        "corte_completo": "Corte de cabelo completo",
+        "barba_completa": "Barba completa",
+        "experiencia": "Experiência premium Mr. Fat"
+    },
+    "whatsapp_msgs": {
+        "cabelo": "Olá! Gostaria de agendar um Corte de Cabelo na Mr. Fat.",
+        "barba": "Olá! Gostaria de agendar um serviço de Barba na Mr. Fat.",
+        "cabelo_barba": "Olá! Gostaria de agendar o Combo Cabelo e Barba na Mr. Fat."
+    }
+  },
+  "schedule": {
+    "title": "Horários",
+    "arrival_note": "*Atendimento por ordem de chegada",
+    "changes_note": "*Sujeito a mudanças em função de feriados e eventos externos",
+    "days": {
+        "dom_seg": "Domingo / Segunda",
+        "ter_sex": "Terça / Quarta / Quinta / Sexta",
+        "sab": "Sábado"
+    },
+    "status": {
+        "open": "Aberto",
+        "closed": "Fechado"
+    }
+  },
+  "footer": {
+    "contacts": "Contatos:",
+    "address": "Endereço:"
+  }
+}

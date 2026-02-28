@@ -5,7 +5,7 @@
 </template>
 <script>
 export default {
-  nome: "TitleComponent",
+  name: "TitlesComponent",
 
   props: {
     title: {

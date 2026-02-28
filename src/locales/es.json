@@ -1,0 +1,60 @@
+{
+  "nav": {
+    "barbershop": "Barbería",
+    "prices": "Precios",
+    "hours": "Horarios"
+  },
+  "header": {
+    "title": "Mr.Fat Barbería",
+    "subtitle": "Bienvenido a MrFat, la barbería donde la excelencia en el servicio y el estilo se encuentran para crear una experiencia única e inolvidable para usted."
+  },
+  "barber": {
+    "title": "Barbería",
+    "quote": "Transforma tu apariencia, eleva tu autoestima. Sé lo mejor que puedes ser en mi silla.",
+    "age": "Edad: 39 años",
+    "experience": "Carrera: Más de 10 años",
+    "education": "Diversos cursos y certificaciones"
+  },
+  "prices": {
+    "title": "Precios",
+    "cabelo": "Cabello",
+    "barba": "Barba",
+    "cabelo_barba": "Cabello & Barba",
+    "whatsapp_btn": "Programar por WhatsApp",
+    "features": {
+        "visagismo": "Consulta de visajismo",
+        "corte_perso": "Corte personalizado",
+        "acabamento": "Acabado premium",
+        "desenho": "Diseño con máquina/navaja",
+        "pos_barba": "Productos para después del afeitado",
+        "hidratacao": "Hidratación del vello",
+        "combo": "Combo completo",
+        "corte_completo": "Corte de cabello completo",
+        "barba_completa": "Barba completa",
+        "experiencia": "Experiencia premium Mr. Fat"
+    },
+    "whatsapp_msgs": {
+        "cabelo": "¡Hola! Me gustaría programar un Corte de Cabello en Mr. Fat.",
+        "barba": "¡Hola! Me gustaría programar un servicio de Barba en Mr. Fat.",
+        "cabelo_barba": "¡Hola! Me gustaría programar el Combo de Cabello y Barba en Mr. Fat."
+    }
+  },
+  "schedule": {
+    "title": "Horarios",
+    "arrival_note": "*Atención por orden de llegada",
+    "changes_note": "*Sujeto a cambios debido a feriados y eventos externos",
+    "days": {
+        "dom_seg": "Domingo / Lunes",
+        "ter_sex": "Martes / Miércoles / Jueves / Viernes",
+        "sab": "Sábado"
+    },
+    "status": {
+        "open": "Abierto",
+        "closed": "Cerrado"
+    }
+  },
+  "footer": {
+    "contacts": "Contactos:",
+    "address": "Dirección:"
+  }
+}
