@@ -35,6 +35,7 @@
           href="https://api.whatsapp.com/send?phone=5581996796347"
           target="_blank"
           class="social-btn"
+          aria-label="WhatsApp"
         ></v-btn>
         <v-btn
           icon="mdi-instagram"
@@ -42,6 +43,7 @@
           href="https://www.instagram.com/mr.fatbarbearia/"
           target="_blank"
           class="social-btn"
+          aria-label="Instagram"
         ></v-btn>
         <v-btn
           icon="mdi-google-maps"
@@ -49,6 +51,7 @@
           href="https://www.google.com/maps/place/Mr.+Fat+Barbearia/@-8.1739149,-34.9230195,17z/data=!3m1!4b1!4m6!3m5!1s0x7aae1be8703ed25:0x56e33bc3b3a0fa38!8m2!3d-8.1739202!4d-34.9181486!16s%2Fg%2F11kj8wmrn8"
           target="_blank"
           class="social-btn"
+          aria-label="Google Maps"
         ></v-btn>
       </div>
 
@@ -58,6 +61,7 @@
         :icon="isDark ? 'mdi-weather-night' : 'mdi-weather-sunny'"
         variant="text"
         class="theme-toggle ml-2"
+        :aria-label="isDark ? 'Mudar para tema claro' : 'Mudar para tema escuro'"
         @click="toggleTheme"
       ></v-btn>
 
@@ -76,9 +80,10 @@
             size="small"
             class="lang-fab ml-4"
             elevation="2"
+            aria-label="Selecionar idioma"
           >
             <v-avatar size="32">
-              <v-img :src="currentLanguage.flag" alt="Current Language" />
+              <v-img :src="currentLanguage.flag" alt="Idioma atual" />
             </v-avatar>
           </v-btn>
         </template>

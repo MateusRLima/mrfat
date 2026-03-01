@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <Navbar @scroll-to="scrollToSection" />
-    <v-main>
+    <v-main class="main-container">
       <header-section />
       <section ref="barber" class="section-scroll reveal">
         <barber-section />
@@ -19,11 +19,11 @@
 
 <script>
 import Navbar from "@/components/Navbar.vue"
-import BarberSection from "@/components/BarberSection.vue"
-import PriceSection from "@/components/PriceSection.vue"
-import ScheduleSection from "@/components/ScheduleSection.vue"
-import HeaderSection from "@/components/HeaderSection.vue"
-import FooterSection from "@/components/FooterSection.vue"
+import BarberSection from "@/pages/BarberSection.vue"
+import PriceSection from "@/pages/PriceSection.vue"
+import ScheduleSection from "@/pages/ScheduleSection.vue"
+import HeaderSection from "@/pages/HeaderSection.vue"
+import FooterSection from "@/pages/FooterSection.vue"
 
 export default {
   name: 'App',
@@ -66,6 +66,17 @@ export default {
 <style lang="scss">
 .section-scroll {
   scroll-margin-top: 80px;
+}
+
+.v-container {
+  max-width: 1200px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.main-container {
+  border-right: v-bind('isDark ? "rgba(241, 241, 241, 0.2)" : "rgba(30, 30, 30, 0.2)"') dotted 1px;
+  border-left: v-bind('isDark ? "rgba(241, 241, 241, 0.2)" : "rgba(30, 30, 30, 0.2)"') dotted 1px;
 }
 
 .reveal {

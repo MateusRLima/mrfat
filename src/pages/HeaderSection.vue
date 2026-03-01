@@ -44,11 +44,6 @@ export default {
   color: v-bind('isDark ? "#F1F1F1" : "#1E1E1E"');
   transition: background-color 0.4s ease, color 0.4s ease;
 
-  .header-container {
-    border-right: v-bind('isDark ? "rgba(241, 241, 241, 0.2)" : "rgba(30, 30, 30, 0.2)"') dotted 1px;
-    border-left: v-bind('isDark ? "rgba(241, 241, 241, 0.2)" : "rgba(30, 30, 30, 0.2)"') dotted 1px;
-  }
-
   .header-text {
     width: 70%;
     min-width: 300px;

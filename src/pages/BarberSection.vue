@@ -7,7 +7,7 @@
           <v-card :theme="isDark ? 'dark' : 'light'" variant="outlined" class="barber-card-full">
             <v-row no-gutters align="center">
               <v-col cols="12" md="4" align="center">
-                <v-img contain :src="profileImg" class="barber-profile" />
+                <v-img contain :src="profileImg" class="barber-profile" alt="Foto de perfil do barbeiro Thales Monteiro, MrFat" />
               </v-col>
               <v-col cols="12" md="8">
                 <v-card-text class="px-10 py-5 pt-10">
@@ -35,9 +35,9 @@
                   
                   <div class="d-flex align-center mt-4">
                     <v-btn icon="mdi-whatsapp" color="primary" variant="tonal" href="https://api.whatsapp.com/send?phone=5581996796347"
-                      target="_blank" class="mr-4"></v-btn>
+                      target="_blank" class="mr-4" aria-label="WhatsApp Mr. Fat"></v-btn>
                     <v-btn icon="mdi-instagram" color="primary" variant="tonal" href="https://www.instagram.com/mr.fatbarbearia/"
-                      target="_blank"></v-btn>
+                      target="_blank" aria-label="Instagram Mr. Fat"></v-btn>
                     <v-spacer></v-spacer>
                   </div>
                 </v-card-text>
@@ -62,6 +62,7 @@
                   loading="lazy" 
                   referrerpolicy="no-referrer-when-downgrade"
                   class="maps-iframe border-right"
+                  title="Localização da Mr. Fat Barbearia no Google Maps"
                 ></iframe>
               </v-col>
               <v-col cols="12" md="6">
@@ -74,6 +75,7 @@
                   loading="lazy" 
                   referrerpolicy="no-referrer-when-downgrade"
                   class="maps-iframe"
+                  title="Vista da rua e interior da Mr. Fat Barbearia"
                 ></iframe>
               </v-col>
             </v-row>
@@ -84,7 +86,7 @@
   </div>
 </template>
 <script>
-import TitlesComponent from './TitlesComponent.vue';
+import TitlesComponent from '@/components/TitlesComponent.vue';
 import profileImg from "@/assets/MrFat.jpg";
 import { useTheme } from 'vuetify'
 
@@ -131,8 +133,6 @@ export default {
   transition: background-color 0.4s ease, color 0.4s ease;
 
   .barber-container {
-    border-right: v-bind('isDark ? "rgba(241, 241, 241, 0.2)" : "rgba(30, 30, 30, 0.2)"') dotted 1px;
-    border-left: v-bind('isDark ? "rgba(241, 241, 241, 0.2)" : "rgba(30, 30, 30, 0.2)"') dotted 1px;
     text-align: center;
   }
 

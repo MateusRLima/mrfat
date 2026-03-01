@@ -42,11 +42,12 @@
   "schedule": {
     "title": "Horarios",
     "arrival_note": "*Atención por orden de llegada",
+    "no_lunch_break": "Sin pausa para el almuerzo",
     "changes_note": "*Sujeto a cambios debido a feriados y eventos externos",
     "days": {
-        "dom_seg": "Domingo / Lunes",
-        "ter_sex": "Martes / Miércoles / Jueves / Viernes",
-        "sab": "Sábado"
+        "dom_seg": "Domingos y Lunes",
+        "ter_sex": "Martes a Viernes",
+        "sab": "Sábados"
     },
     "status": {
         "open": "Abierto",

@@ -42,11 +42,12 @@
   "schedule": {
     "title": "Hours",
     "arrival_note": "*Service on a first-come, first-served basis",
+    "no_lunch_break": "No lunch break",
     "changes_note": "*Subject to change due to holidays and external events",
     "days": {
-        "dom_seg": "Sunday / Monday",
-        "ter_sex": "Tuesday / Wednesday / Thursday / Friday",
-        "sab": "Saturday"
+        "dom_seg": "Sundays and Mondays",
+        "ter_sex": "Tuesday to Friday",
+        "sab": "Saturdays"
     },
     "status": {
         "open": "Open",
