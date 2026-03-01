@@ -33,7 +33,7 @@
         class="schedule-btn py-6"
         :href="whatsappLink"
         target="_blank"
-        rel="noreferrer"
+        rel="noreferrer noopener"
         :aria-label="'Agendar ' + item.name + ' via WhatsApp'"
       >
         <v-icon start class="mr-2">mdi-whatsapp</v-icon>

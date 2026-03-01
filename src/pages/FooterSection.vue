@@ -5,13 +5,13 @@
         <v-col sm="6" md="3">
           <h4 class="mb-4">{{ $t('footer.contacts') }}</h4>
           <div class="d-flex flex-column align-start">
-            <v-btn size="small" variant="text" class="px-4 mb-3" rel="noreferrer" target="_blank"
+            <v-btn size="small" variant="text" class="px-4 mb-3" rel="noreferrer noopener" target="_blank"
               href="https://api.whatsapp.com/send?phone=5581996796347"
               aria-label="Contato via WhatsApp"
             >
               <v-icon size="small" class="mr-2">mdi-whatsapp</v-icon> (81) 9 9679-6347
             </v-btn>
-            <v-btn size="small" variant="text" class="px-4" rel="noreferrer" target="_blank"
+            <v-btn size="small" variant="text" class="px-4" rel="noreferrer noopener" target="_blank"
               href="https://www.instagram.com/mr.fatbarbearia/"
               aria-label="Siga-nos no Instagram"
             >
@@ -21,7 +21,7 @@
         </v-col>
         <v-col sm="6" md="9">
           <h4 class="mb-4">{{ $t('footer.address') }}</h4>
-          <v-btn variant="text" class="pa-4 address-btn" rel="noreferrer" target="_blank"
+          <v-btn variant="text" class="pa-4 address-btn" rel="noreferrer noopener" target="_blank"
             href="https://www.google.com/maps/place/Mr.+Fat+Barbearia/@-8.1739149,-34.9230195,17z/data=!3m1!4b1!4m6!3m5!1s0x7aae1be8703ed25:0x56e33bc3b3a0fa38!8m2!3d-8.1739202!4d-34.9181486!16s%2Fg%2F11kj8wmrn8"
             aria-label="Ver localização no Google Maps"
             height="auto"

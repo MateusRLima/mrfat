@@ -36,6 +36,7 @@
           target="_blank"
           class="social-btn"
           aria-label="WhatsApp"
+          rel="noreferrer noopener"
         ></v-btn>
         <v-btn
           icon="mdi-instagram"
@@ -44,6 +45,7 @@
           target="_blank"
           class="social-btn"
           aria-label="Instagram"
+          rel="noreferrer noopener"
         ></v-btn>
         <v-btn
           icon="mdi-google-maps"

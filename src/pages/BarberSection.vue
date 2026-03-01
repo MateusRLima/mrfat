@@ -33,13 +33,13 @@
                     </div>
                   </div>
                   
-                  <div class="d-flex align-center mt-4">
-                    <v-btn icon="mdi-whatsapp" color="primary" variant="tonal" href="https://api.whatsapp.com/send?phone=5581996796347"
-                      target="_blank" class="mr-4" aria-label="WhatsApp Mr. Fat"></v-btn>
-                    <v-btn icon="mdi-instagram" color="primary" variant="tonal" href="https://www.instagram.com/mr.fatbarbearia/"
-                      target="_blank" aria-label="Instagram Mr. Fat"></v-btn>
-                    <v-spacer></v-spacer>
-                  </div>
+                    <div class="d-flex align-center mt-4">
+                      <v-btn icon="mdi-whatsapp" color="primary" variant="tonal" href="https://api.whatsapp.com/send?phone=5581996796347"
+                        target="_blank" rel="noreferrer noopener" class="mr-4" aria-label="WhatsApp Mr. Fat"></v-btn>
+                      <v-btn icon="mdi-instagram" color="primary" variant="tonal" href="https://www.instagram.com/mr.fatbarbearia/"
+                        target="_blank" rel="noreferrer noopener" aria-label="Instagram Mr. Fat"></v-btn>
+                      <v-spacer></v-spacer>
+                    </div>
                 </v-card-text>
               </v-col>
             </v-row>
